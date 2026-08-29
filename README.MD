@@ -12,6 +12,21 @@ lmv --gen-completions zsh | sudo tee /usr/share/zsh/site-functions/_lmv
 lmv --gen-completions fish | sudo tee /usr/share/fish/vendor_completions.d/lmv.fish
 ```
 
+<details>
+<summary><h3>Arch(AUR)</h3></summary>
+
+### AUR
+```bash
+paru -S lmv
+```
+### Makepkg
+```bash
+git clone https://aur.archlinux.org/lmv.git
+cd lmv
+makepkg -si
+```
+</details>
+
 # Використання:
 ```bash
 lmv [ПРАПОРИ] <джерело> <призначення>
