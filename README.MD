@@ -13,9 +13,9 @@ lmv --gen-completions fish | sudo tee /usr/share/fish/vendor_completions.d/lmv.f
 ```
 
 <details>
-<summary><h3>Arch(AUR)</h3></summary>
+<summary><h3>Arch (AUR)</h3></summary>
 
-### AUR
+### AUR (через aura-emerge)
 ```bash
 emerge -av --aur lmv
 ```
