@@ -17,7 +17,7 @@ lmv --gen-completions fish | sudo tee /usr/share/fish/vendor_completions.d/lmv.f
 
 ### AUR
 ```bash
-paru -S lmv
+emerge -av --aur lmv
 ```
 ### Makepkg
 ```bash
